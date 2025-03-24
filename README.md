@@ -1,13 +1,11 @@
 # Metro_Simulation
-python code
 
 Bu kod, İstanbul'daki metro sisteminin bir simülasyonunu oluşturan bir Python programıdır.
 
 **Kodun Amacı**
 Kod, İstanbul'un metro ağını modelleyerek istasyonlar ve hatlar arasındaki bağlantıları oluşturur. Kullanıcıya:
-- En az aktarma yapan rotayı** bulma (BFS - Breadth-First Search)
-- En hızlı rotayı** bulma (A* benzeri algoritma)  
-imkanlarını sunar.
+- En az aktarma yapan rotayı bulma (BFS - Breadth-First Search),
+- En hızlı rotayı bulma (A* benzeri algoritma) imkanlarını sunar.
 
 
 **Kodun Bileşenleri**
@@ -71,10 +69,10 @@ Geliştirilebilecek Noktalar
 - Aktarma arası geçiş süreleri ve duraklar arası geçiş süreleri daha gerçekçi şekilde ele alınabilir.
 - İstenen durak kodlarını kullanıcı  görüntüleyebilir.
 - Kullanıcıdan durakların kodları değil, direkt olarak durak isimleri alınarak kullanıcıya kolaylık oluşturulabilir.
-- İstanbulda bulunan YHT ya da Deniz Hatları da eklenerek daha gerçekçi bir ulaşım hattı oluşturlabilir.
+- İstanbulda bulunan YHT ya da Deniz Hatları da eklenerek daha gerçekçi bir ulaşım hattı oluşturulabilir.
 - Ulaşım boyunca toplam ulaşım ücreti hesaplanarak uygulamanın amacı genişletilebilir.
 - Eklenmiş olan PDF linki farklı yöntemlerle direkt olarak kullanıcıya yansıtılabilir. 
 
-SONUÇ
+**SONUÇ**
 Bu kod, İstanbul metro sisteminin temel bir modelini oluşturur.  
 Gerçek zamanlı yolculuk planlaması ve dinamik süreler için geliştirilebilir.
